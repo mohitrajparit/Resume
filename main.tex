@@ -1,0 +1,233 @@
+\documentclass[letterpaper,11pt]{article}
+
+% --------------- PACKAGES -----------------------
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\usepackage[dvipsnames]{xcolor}
+\input{glyphtounicode}
+
+
+% ---------- RESUME FORMAT ADJUSTMENTS -------------
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-7pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+%-----------------RESUME STARTS HERE----------------------
+
+% The resume has Education, Experience, Projects, Achievements, Technical Skills, Coding Profiles sections
+% You can keep which all you want and in which order, comment the ones you don't need
+% In ordering your sections, keep the ones first which are your best selling points
+
+
+\begin{document}
+\begin{center}
+    \textbf{\Huge \scshape Mohit Raj Parit} \\ \vspace{2pt}
+    %\ \href{}{\textcolor{BlueViolet}{\faGlobe\enspace   \textbf{}}} $|$ 
+    \href{mailto:2004mohitraj@gmail.com}{\textcolor{BlueViolet}{\faEnvelopeO\enspace \textbf{2004mohitraj@gmail.com}}} $|$ 
+    \href{https://www.linkedin.com/in/mohit-raj-parit-04a3411b4/}{\textcolor{BlueViolet}{\faLinkedin\enspace \textbf{Linkedin}}} $|$
+    \href{https://github.com/mohitrajparit}{\textcolor{BlueViolet}{\faGithub\enspace \textbf{Github}}} $|$
+    \small {\faMobile\enspace \textbf{+91 6209356362}} $$
+\end{center}
+%-----------EDUCATION-----------
+% Write only your two highest formal educational qualifications
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Maulana Abul Kalam Azad University Of Technology}{Kolkata, India}
+      {Bachelor of Engineering, Computer Science -- \textbf{CGPA: 8.23}}{August 2021 -- June 2025}
+    \resumeSubheading
+      {Kendriya Vidyalaya ,HEC No.1 }{Ranchi,Jharkhand}
+      {Higher Secondary PCM -- \textbf{Percentage: 93.4\%}}{ 2019 --  2021}
+       \resumeSubheading
+      { Bihar Vikas Vidyalaya}{Gopalganj,Bihar}
+      {High School -- \textbf{Percentage: 90.2\%}}{ 2017 --  2019}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{\large{Image Uploader App}} $$ \emph{\href{https://google.com/}{\textcolor{BlueViolet}{\textbf{}}}} $|$ \emph{\href{https://github.com/mohitrajparit/image-uploader-react}{\textcolor{BlueViolet}{\textbf{Github}}}}}{ }
+          \resumeItemListStart
+            \resumeItem{
+
+            
+            Stack:React,node.js, express.js,MongoDB,Cloudinary,etc.
+
+            It is full stack website using cloudinary as cloud to upload and fetch images.
+
+            
+}
+          \resumeItemListEnd
+          
+    \resumeProjectHeading
+          {\textbf{\large{Task Manager}} $$ \emph{\href{https://google.com/}{\textcolor{BlueViolet}{\textbf{}}}} $|$ \emph{\href{https://github.com/mohitrajparit/Task-Manager/}{\textcolor{BlueViolet}{\textbf{Github}}}}}{ }
+          \resumeItemListStart
+            
+            \resumeItem{
+            
+            Stack:HTML,CSS,Javascript,Node.js,Express.js,MongoDB
+
+            It is a task manager react website with fully functional backend and beautiful animations.It helps in mamnaging your task easily.
+            }
+          \resumeItemListEnd
+
+           \resumeProjectHeading
+          {\textbf{\large{Portfolio website}} $$ \emph{\href{https://google.com/}{\textcolor{BlueViolet}{\textbf{}}}} $|$ \emph{\href{https://github.com/mohitrajparit/my-portfolio-}{\textcolor{BlueViolet}{\textbf{Github}}}}}{}
+          \resumeItemListStart
+           
+            \resumeItem{
+
+           I have developed my portfolio website using react js using tailwind css.
+            }
+          \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+
+
+%-----------TECHNICAL SKILLS-----------
+% Don't fake this section, as interviewer might screw you in it
+
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C, C++, Python, Javascript,HTML,CSS} \\
+     \textbf{Frameworks}{: React JS, Redux, Tailwind CSS ,NodeJS,ExpressJS, Bootstrap} \\
+     \textbf{Databases}{:  MySQL,MongoDB} \\
+     \textbf{Developer Tools}{:  VS Code,Github,Git,lInux} \\
+     % or anything else you want, like cloud/developer tools, etc.
+    }}
+   
+ \end{itemize}
+
+
+% --------CODING PROFILES--------------
+% keep only your best coding profiles here
+% add \\ after each 3rd profile to add a new line, if you add more profiles (which you shouldn't)
+
+\section{Coding Profiles}
+\renewcommand{\arraystretch}{0}
+\begin{tabular}{p{0.33\textwidth}p{0.33\textwidth}p{0.33\textwidth}}
+  \begin{itemize}[leftmargin=*, topsep=0pt]
+    \item LeetCode - \href{https://leetcode.com/_mohit_raj/}{\textbf{\textcolor{BlueViolet}{mohitraj}}}
+  \end{itemize} &
+  \begin{itemize}[leftmargin=*, topsep=0pt]
+    \item Github - \href{https://github.com/mohitrajparit}{\textbf{\textcolor{BlueViolet}{mohitrajparit}}}
+  \end{itemize} &
+  \begin{itemize}[leftmargin=*, topsep=0pt]
+    \item CodeChef - \href{https://www.codechef.com/users/mohit_raj_066}{\textbf{\textcolor{BlueViolet}{mohitraj0606}}}
+  \end{itemize} &
+  \begin{itemize}[leftmargin=*, topsep=0pt]
+    \item GeeksforGeeks - \href{https://www.geeksforgeeks.org/user/_mohit_raj_/}{\textbf{\textcolor{BlueViolet}{mohitraj}}}
+  \end{itemize} &
+  \begin{itemize}[leftmargin=*, topsep=0pt]
+    \item Codeforces - \href{https://codeforces.com/profile/mohitraj0606}{\textbf{\textcolor{BlueViolet}{mohitraj0606}}}
+  \end{itemize} &
+  
+\end{tabular}
+
+
+% -----------ACHIEVEMENTS/OPEN-SOURCE/RESEARCH-----------
+% Keep achievements as per the company you are applying to
+% If you have achievements in competitive programming, add it, it is useful when applying to product based companies
+% You should give more priority to hackathons' and open source's achievements when applying for startups or abroad companies
+
+\section{Achievements}
+\resumeItemListStart
+    \resumeItem{ 1650+ rating at leetcode}
+
+    \resumeItem{2* at codechef with rating of 1480}
+    \resumeItem {Solved 500+ questions on LeetCode, Geek for Geeks and HackerRank }
+    
+\resumeItemListEnd
+
+\section{Certifications}
+\resumeItemListStart
+    \begin{itemize}[leftmargin=*, topsep=0pt]
+    \item  The Complete 2024 Web Development Bootcamp  - \href{https://www.udemy.com/certificate/UC-e4ca9afd-5023-45c4-b4e6-ab660d175d6d/}{\textbf{\textcolor{BlueViolet}{Certificate}}}
+  \end{itemize} 
+
+    
+    
+\resumeItemListEnd
+
+\section{Languages}
+\resumeItemListStart
+    \begin{itemize}[leftmargin=*, topsep=0pt]
+    \item  Hindi 
+  \end{itemize} 
+
+   \begin{itemize}[leftmargin=*, topsep=0pt]
+    \item  English 
+  \end{itemize} 
+
+    
+    
+\resumeItemListEnd
+
+%-------------------------------------------
+\end{document}
